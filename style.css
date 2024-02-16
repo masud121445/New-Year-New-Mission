@@ -1,0 +1,243 @@
+.web-margin{
+    margin-left:100px;
+    margin-right:100px;
+}
+.banner-section{
+    margin-top:50px;
+    text-align: center;
+    color:white;
+    background-image:url(Images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    height: 520px;
+    width: auto;
+}
+.banner-text{
+    padding-top:100px;
+}
+.banner-text h1{
+    font-size:3rem;
+}
+.banner-text p{
+    font-size:1.5rem;
+}
+.discount-section{
+    margin-top:30px;
+    text-align:center;
+}
+.discount-amount{
+    color:red;
+    font-size:3rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.discount-description{
+    color:red;
+    font-size:1.2rem;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.description-title{
+    font-size:2.8rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.welcome-section{
+    margin-top:30px;
+    background-image: url(Images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 520px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.welcome-text h1 {
+    font-size:3rem;
+    letter-spacing: 3px;
+}
+.welcome-text{
+    padding-top:60px;
+    padding-left:90px;
+}
+.welcome-description{
+    font-size:1rem;
+    width:60%;
+    word-spacing: 3px;
+    line-height: 25px;
+
+}
+.primary-btn{
+    padding:10px 20px;
+    color:white;
+    background-color: rgba(255, 0, 0, 0.548);
+    border-radius: 5px;
+    border:0;
+    font-weight: bold;
+}
+.welcome-btn{
+    margin-left:30px;
+    margin-top:30px;
+}
+.join-section{
+    background-color: rgba(255, 192, 203, 0.353);
+    box-shadow:2px 2px 50px 2px  rgba(255, 192, 203, 0.117);
+    border-radius: 10px;
+    margin-top:100px;
+}
+.join-text{
+    padding-top:30px;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.red-color{
+    color:red;
+}
+.offer-section{
+    padding-top:150px;
+    display:flex;
+    /* justify-content: space-around; */
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding-left:100px;
+    padding-right:100px; */
+}
+.offer-description{
+    color:rgba(0, 0, 0, 0.589);
+    line-height: 25px;
+    width: 70%;
+}
+.offer-img{
+    padding-right:200px;
+    /* height: 250px; */
+    
+}
+.special-img{
+    border-radius: 50%;
+    border:45px solid white ;   
+    outline:15px solid red;
+    outline-offset: -20px;
+}
+.new-year-description{
+    color:rgba(0, 0, 0, 0.589);
+    line-height: 25px;
+}
+.offer-text{
+    padding-top:100px
+}
+.new-year-2024{
+    padding-top: 100px;
+}
+.new-year-2024 img{
+    padding-top:50px;
+}
+.holiday-section{
+    margin-top:100px;
+    text-align: center;
+}
+.holiday-title{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgba(0, 0, 0, 0.843);
+}
+.holiday-heading{
+    font-size:3rem;
+}
+.holiday-description{
+    width:50%;
+    padding-left: 25%;
+    line-height: 20px;
+    color:rgba(0, 0, 0, 0.843);
+}
+.holiday-img{
+    /* background-image: url(Images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-position: top right; */
+    
+    display: flex;
+    /* padding-top: 30px; */
+}
+.doll{
+    padding-left: 400px;
+}
+
+.holiday-discount{
+    
+}
+.reactangle-bar{
+    /* top:0; */
+    width:1130px;
+}
+.image-one{
+    background-image: url(Images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    /* height: 410px; */
+    background-position: top right; 
+}
+.image-two{
+    background-image: url(Images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+}
+.portfolio-section{
+    margin-top:100px;
+}
+.portfolio-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+.portfolio-product{
+    padding-top:30px
+}
+.portolio-img{
+    display:flex;
+    padding-top:20px;
+    gap:10px;
+}
+.portolio-img img{
+    width:370px;
+}
+.portolio-img img:hover{
+    border:solid 5px red;
+    border-radius: 10px;
+}
+.portfolio-description{
+    color:rgba(0, 0, 0, 0.594);
+    width:60%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+}
+.subscribe-section{
+    margin-top:100px;
+}
+.subscribe-text{
+   padding-top:50px;
+   background-color: bisque;
+   border-radius: 10px;
+   text-align: center;
+}
+.subscribe-form{
+    width:400px;
+    max-width: 100%;
+    position:relative;
+    margin-left:30%;
+    padding-bottom: 50px;
+    height: 50px;
+}
+.subscribe-form input{
+    background-color: white;
+    border:0;
+    outline:0;
+    border-radius: 50px;
+    padding:1rem 2rem;
+    width: 100%;
+}
+.sub-btn{
+    background-color: red;
+    border-radius:0px 25px 25px 0px;
+    height: 100%;
+    aspect-ratio: 1;
+    position: absolute;
+    margin-left:192px;
+    outline:0;
+    border:0;
+    top:-0.1px;
+    color:white;
+    height: 48px;
+}
