@@ -1,3 +1,7 @@
+body{
+    padding:0;
+    margin:0;
+}
 .web-margin{
     margin-left:100px;
     margin-right:100px;
@@ -84,6 +88,7 @@
 }
 .join-text{
     padding-top:30px;
+    padding-bottom:50px;
     text-align:center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -157,9 +162,7 @@
     padding-left: 400px;
 }
 
-.holiday-discount{
-    
-}
+
 .reactangle-bar{
     /* top:0; */
     width:1130px;
@@ -240,4 +243,46 @@
     top:-0.1px;
     color:white;
     height: 48px;
+}
+footer{
+    margin-top: 100px;
+    background-color: #0a0826;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif
+}
+.footer-section{
+    padding-top:80px;
+    padding-bottom: 50px;
+    display:flex;
+    justify-content: space-between;
+}
+.footer-section img{
+    height: 30px;
+}
+.call-us{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.web{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.social-section{
+    gap:10px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top:1px solid rgba(128, 128, 128, 0.485);
+    border-bottom:1px solid rgba(128, 128, 128, 0.485);
+}
+.social-section img{
+    padding-left:10px;
+    
+}
+.footer-end{
+    padding-top:50px;
+    display:flex;
+    justify-content: space-between;
 }
