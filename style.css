@@ -146,27 +146,15 @@ body{
 }
 .holiday-description{
     width:50%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
     padding-left: 25%;
     line-height: 20px;
     color:rgba(0, 0, 0, 0.843);
 }
-.holiday-img{
-    /* background-image: url(Images/Rectangle\ 1.png);
-    background-repeat: no-repeat;
-    background-position: top right; */
-    
-    display: flex;
-    /* padding-top: 30px; */
-}
-.doll{
-    padding-left: 400px;
-}
 
 
-.reactangle-bar{
-    /* top:0; */
-    width:1130px;
-}
+
 .image-one{
     background-image: url(Images/Rectangle\ 1.png);
     background-repeat: no-repeat;
@@ -285,4 +273,28 @@ footer{
     padding-top:50px;
     display:flex;
     justify-content: space-between;
+}
+.holiday-img{
+    display: flex;
+    background-image: url(Images/Rectangle\ 1.png);
+    background-repeat:no-repeat;
+    background-position: top right;
+    height: 410px;
+}
+.rectangle-bar{
+    width:1146px;
+    top:100px;
+    left:0px;
+}
+.reward-box{
+    position:absolute;
+    height: 500px;
+    top:3300px;
+    left:20px;
+    
+}
+.discount-offer{
+    height: 300px;
+    padding-left:570px;
+    padding-top:40px;
 }
